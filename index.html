@@ -397,17 +397,12 @@
     <script>
         // List of image URLs for the main image
         const imageList = [
-            "https://w.wallhaven.cc/full/je/wallhaven-je52jp.jpg", // Example 1 (COTN)
-            "https://w.wallhaven.cc/full/7j/wallhaven-7j3yeo.jpg", // Example 2 (MDUD)
-            "https://w.wallhaven.cc/full/k7/wallhaven-k76wg6.png", // Example 3 (LAIN) - UPDATED
-            "https://w.wallhaven.cc/full/o5/wallhaven-o5oxvl.jpg", // Example 4 (ZZZ)
-            "https://w.wallhaven.cc/full/7p/wallhaven-7p8qg9.png",  // Example 5 (JINX)
-            "https://w.wallhaven.cc/full/9d/wallhaven-9d3181.jpg", // (SNOW) - ADDED
+            "https://w.wallhaven.cc/full/7j/wallhaven-7j3yeo.jpg", // Example 1 (MDUD)
+            "https://w.wallhaven.cc/full/k7/wallhaven-k76wg6.png", // Example 2 (LAIN) - UPDATED
+            "https://w.wallhaven.cc/full/o5/wallhaven-o5oxvl.jpg", // Example 3 (ZZZ)
             "https://w.wallhaven.cc/full/5g/wallhaven-5g96j3.jpg", // (FILIAN) - ADDED
-            "https://w.wallhaven.cc/full/k8/wallhaven-k83or7.jpg", // (GIRL) - ADDED
             "https://w.wallhaven.cc/full/o5/wallhaven-o5ve6l.png", // (AD) - ADDED
             "https://w.wallhaven.cc/full/6d/wallhaven-6do1vw.jpg", // (BTR) - ADDED
-            "https://w.wallhaven.cc/full/13/wallhaven-13l2r9.jpg", // (DS) - ADDED
             "https://w.wallhaven.cc/full/9d/wallhaven-9dq9wk.png",  // (ZZZ2) - ADDED
             "https://w.wallhaven.cc/full/9o/wallhaven-9o63kx.jpg", // (FRIDGE) - ADDED
             "https://w.wallhaven.cc/full/1p/wallhaven-1p5g5w.png"  // (MOMO) - ADDED
@@ -518,7 +513,7 @@
             updateTimeAndDate(); // Update time and date
             // Update greeting message, inserting it into the span element
             // Changed 'Ryan' to 'USER' as requested
-            document.querySelector('#greetingMessage span').textContent = getGreetingMessage('USER');
+            document.querySelector('#greetingMessage span').textContent = getGreetingMessage('Serp');
         }
 
         // Function to update time and date (kept separate for clarity, but now called by combined function)
@@ -763,3 +758,4 @@
     </script>
 </body>
 </html>
+
