@@ -379,7 +379,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                     <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
                 </svg>
-                <span>Washington, D.C.</span>
+                <span>Auburn, GA</span>
             </div>
 
             <div id="weatherForecast" class="weather-forecast-days">
@@ -555,8 +555,8 @@
 
         // --- Weather API Integration (Open-Meteo.com - No API Key Needed) ---
         // Latitude and Longitude for Washington, D.C.
-        const WEATHER_LAT = 38.9072;
-        const WEATHER_LON = -77.0369;
+        const WEATHER_LAT = 34.0137;
+        const WEATHER_LON = -83.8274;
         // Open-Meteo API URL for daily forecast including max/min temp, precipitation probability, and weather code
         const WEATHER_API_URL = `https://api.open-meteo.com/v1/forecast?latitude=${WEATHER_LAT}&longitude=${WEATHER_LON}&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,weathercode&timezone=auto&forecast_days=5&temperature_unit=fahrenheit`;
 
@@ -758,4 +758,5 @@
     </script>
 </body>
 </html>
+
 
